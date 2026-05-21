@@ -21,6 +21,6 @@ describe("calculator", () => {
     expect(() => divide(10, 0)).toThrow("Cannot divide by zero");
   });
   test("test but it fails", () => {
-    expect(() => fail(10)).toThrow("Cannot divide by zero");
+    expect(() => fail(10)).toThrow("uihhhh");
   })
 });
